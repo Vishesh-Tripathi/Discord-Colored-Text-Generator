@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import '@mantine/core/styles.css';
+@font-face {
+    font-family: 'CustomMono';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+  }
+  
+  .custom-mono {
+    font-family: 'Roboto Mono', monospace;
+  }
+  .active-color {
+    border: 2px solid #8B0000 !important; /* Dark red outline */
+  }
